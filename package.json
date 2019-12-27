@@ -1,7 +1,7 @@
 {
-  "name": "rnstorybook",
-  "version": "0.0.1",
-  "private": true,
+  "name": "react-native-design-system",
+  "version": "0.1.0",
+  "private": false,
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
@@ -26,6 +26,7 @@
     "@storybook/addons": "^5.2.8",
     "@storybook/react-native": "^5.2.8",
     "@storybook/react-native-server": "^5.2.8",
+    "auto": "^8.7.3",
     "babel-jest": "^24.9.0",
     "babel-loader": "^8.0.6",
     "eslint": "^6.5.1",
@@ -36,5 +37,10 @@
   },
   "jest": {
     "preset": "react-native"
-  }
+  },
+  "description": "Basic Design System",
+  "main": "dist/index.js",
+  "repository": "https://github.com/rajatrao777/react-native-design-system.git",
+  "author": "Rajat Rao",
+  "license": "MIT"
 }
